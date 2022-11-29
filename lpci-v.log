@@ -1,0 +1,186 @@
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v3 Processor DRAM Controller (rev 06)
+        Subsystem: Super Micro Computer Inc Xeon E3-1200 v3 Processor DRAM Controller
+        Flags: bus master, fast devsel, latency 0
+        Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+        Kernel driver in use: ie31200_edac
+        Kernel modules: ie31200_edac
+
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller (rev 06) (prog-if 00 [Normal decode])
+        Flags: bus master, fast devsel, latency 0, IRQ 24
+        Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+        I/O behind bridge: [disabled]
+        Memory behind bridge: e0000000-e0ffffff [size=16M]
+        Prefetchable memory behind bridge: [disabled]
+        Capabilities: [88] Subsystem: Super Micro Computer Inc Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller
+        Capabilities: [80] Power Management version 3
+        Capabilities: [90] MSI: Enable+ Count=1/1 Maskable- 64bit-
+        Capabilities: [a0] Express Root Port (Slot+), MSI 00
+        Capabilities: [100] Virtual Channel
+        Capabilities: [140] Root Complex Link
+        Capabilities: [d94] Secondary PCI Express
+        Kernel driver in use: pcieport
+
+00:14.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI (rev 05) (prog-if 30 [XHCI])
+        Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family USB xHCI
+        Flags: bus master, medium devsel, latency 0, IRQ 27
+        Memory at f7220000 (64-bit, non-prefetchable) [size=64K]
+        Capabilities: [70] Power Management version 2
+        Capabilities: [80] MSI: Enable+ Count=1/8 Maskable- 64bit+
+        Kernel driver in use: xhci_hcd
+        Kernel modules: xhci_pci
+
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 05)
+        DeviceName:  Intel Ethernet i217LM #2
+        Subsystem: Intel Corporation 82579LM Gigabit Network Connection (Lewisville)
+        Flags: bus master, fast devsel, latency 0, IRQ 29
+        Memory at f7200000 (32-bit, non-prefetchable) [size=128K]
+        Memory at f7234000 (32-bit, non-prefetchable) [size=4K]
+        I/O ports at f020 [size=32]
+        Capabilities: [c8] Power Management version 2
+        Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+        Capabilities: [e0] PCI Advanced Features
+        Kernel driver in use: e1000e
+        Kernel modules: e1000e
+
+00:1a.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #2 (rev 05) (prog-if 20 [EHCI])
+        Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family USB EHCI
+        Flags: bus master, medium devsel, latency 0, IRQ 16
+        Memory at f7233000 (32-bit, non-prefetchable) [size=1K]
+        Capabilities: [50] Power Management version 2
+        Capabilities: [58] Debug port: BAR=1 offset=00a0
+        Capabilities: [98] PCI Advanced Features
+        Kernel driver in use: ehci-pci
+
+00:1c.0 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #1 (rev d5) (prog-if 00 [Normal decode])
+        Flags: bus master, fast devsel, latency 0, IRQ 25
+        Bus: primary=00, secondary=02, subordinate=03, sec-latency=0
+        I/O behind bridge: 0000e000-0000efff [size=4K]
+        Memory behind bridge: e1000000-e27fffff [size=24M]
+        Prefetchable memory behind bridge: [disabled]
+        Capabilities: [40] Express Root Port (Slot+), MSI 00
+        Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+        Capabilities: [90] Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family PCI Express Root Port
+        Capabilities: [a0] Power Management version 3
+        Kernel driver in use: pcieport
+
+00:1c.1 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #2 (rev d5) (prog-if 00 [Normal decode])
+        Flags: bus master, fast devsel, latency 0, IRQ 26
+        Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+        I/O behind bridge: 0000d000-0000dfff [size=4K]
+        Memory behind bridge: e2800000-e28fffff [size=1M]
+        Prefetchable memory behind bridge: [disabled]
+        Capabilities: [40] Express Root Port (Slot+), MSI 00
+        Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+        Capabilities: [90] Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family PCI Express Root Port
+        Capabilities: [a0] Power Management version 3
+        Kernel driver in use: pcieport
+
+00:1d.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #1 (rev 05) (prog-if 20 [EHCI])
+        Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family USB EHCI
+        Flags: bus master, medium devsel, latency 0, IRQ 22
+        Memory at f7232000 (32-bit, non-prefetchable) [size=1K]
+        Capabilities: [50] Power Management version 2
+        Capabilities: [58] Debug port: BAR=1 offset=00a0
+        Capabilities: [98] PCI Advanced Features
+        Kernel driver in use: ehci-pci
+
+00:1f.0 ISA bridge: Intel Corporation C222 Series Chipset Family Server Essential SKU LPC Controller (rev 05)
+        Subsystem: Super Micro Computer Inc C222 Series Chipset Family Server Essential SKU LPC Controller
+        Flags: bus master, medium devsel, latency 0
+        Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+        Kernel driver in use: lpc_ich
+        Kernel modules: lpc_ich
+
+00:1f.2 SATA controller: Intel Corporation 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] (rev 05) (prog-if 01 [AHCI 1.0])
+        Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
+        Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 28
+        I/O ports at f070 [size=8]
+        I/O ports at f060 [size=4]
+        I/O ports at f050 [size=8]
+        I/O ports at f040 [size=4]
+        I/O ports at f000 [size=32]
+        Memory at f7231000 (32-bit, non-prefetchable) [size=2K]
+        Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+        Capabilities: [70] Power Management version 3
+        Capabilities: [a8] SATA HBA v1.0
+        Kernel driver in use: ahci
+        Kernel modules: ahci
+
+00:1f.3 SMBus: Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller (rev 05)
+        Subsystem: Super Micro Computer Inc 8 Series/C220 Series Chipset Family SMBus Controller
+        Flags: medium devsel, IRQ 18
+        Memory at f7230000 (64-bit, non-prefetchable) [size=256]
+        I/O ports at 0580 [size=32]
+        Kernel driver in use: i801_smbus
+        Kernel modules: i2c_i801
+
+00:1f.6 Signal processing controller: Intel Corporation 8 Series Chipset Family Thermal Management Controller (rev 05)
+        Subsystem: Super Micro Computer Inc 8 Series Chipset Family Thermal Management Controller
+        Flags: fast devsel, IRQ 18
+        Memory at fbff00000 (64-bit, non-prefetchable) [size=4K]
+        Capabilities: [50] Power Management version 3
+        Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+        Kernel driver in use: intel_pch_thermal
+        Kernel modules: intel_pch_thermal
+
+01:00.0 3D controller: NVIDIA Corporation GM200GL [Tesla M40] (rev a1)
+        Subsystem: NVIDIA Corporation GM200GL [Tesla M40]
+        Flags: bus master, fast devsel, latency 0, IRQ 16
+        Memory at e0000000 (32-bit, non-prefetchable) [size=16M]
+        Memory at <unassigned> (64-bit, prefetchable)
+        Memory at <unassigned> (64-bit, prefetchable)
+        Capabilities: [60] Power Management version 3
+        Capabilities: [68] MSI: Enable- Count=1/1 Maskable- 64bit+
+        Capabilities: [78] Express Endpoint, MSI 00
+        Capabilities: [100] Virtual Channel
+        Capabilities: [250] Latency Tolerance Reporting
+        Capabilities: [258] L1 PM Substates
+        Capabilities: [128] Power Budgeting <?>
+        Capabilities: [420] Advanced Error Reporting
+        Capabilities: [600] Vendor Specific Information: ID=0001 Rev=1 Len=024 <?>
+        Capabilities: [900] Secondary PCI Express
+        Kernel driver in use: nvidia
+        Kernel modules: nvidiafb, nouveau, nvidia_drm, nvidia
+
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 03) (prog-if 00 [Normal decode])
+        Flags: bus master, fast devsel, latency 0
+        Bus: primary=02, secondary=03, subordinate=03, sec-latency=0
+        I/O behind bridge: 0000e000-0000efff [size=4K]
+        Memory behind bridge: e1000000-e27fffff [size=24M]
+        Prefetchable memory behind bridge: [disabled]
+        Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit+
+        Capabilities: [78] Power Management version 3
+        Capabilities: [80] Express PCI-Express to PCI/PCI-X Bridge, MSI 00
+        Capabilities: [a4] Subsystem: Super Micro Computer Inc AST1150 PCI-to-PCI Bridge
+        Capabilities: [100] Virtual Channel
+        Capabilities: [800] Advanced Error Reporting
+
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 30) (prog-if 00 [VGA controller])
+        DeviceName:  ASPEED Video AST2400
+        Subsystem: Super Micro Computer Inc ASPEED Graphics Family
+        Flags: medium devsel, IRQ 16
+        Memory at e1000000 (32-bit, non-prefetchable) [size=16M]
+        Memory at e2000000 (32-bit, non-prefetchable) [size=128K]
+        I/O ports at e000 [size=128]
+        Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]
+        Capabilities: [40] Power Management version 3
+        Capabilities: [50] MSI: Enable- Count=1/4 Maskable- 64bit+
+        Kernel driver in use: ast
+        Kernel modules: ast
+
+04:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)
+        DeviceName:  Intel Ethernet i210AT #1
+        Subsystem: Super Micro Computer Inc I210 Gigabit Network Connection
+        Flags: bus master, fast devsel, latency 0, IRQ 17
+        Memory at e2800000 (32-bit, non-prefetchable) [size=512K]
+        I/O ports at d000 [size=32]
+        Memory at e2880000 (32-bit, non-prefetchable) [size=16K]
+        Capabilities: [40] Power Management version 3
+        Capabilities: [50] MSI: Enable- Count=1/1 Maskable+ 64bit+
+        Capabilities: [70] MSI-X: Enable+ Count=5 Masked-
+        Capabilities: [a0] Express Endpoint, MSI 00
+        Capabilities: [100] Advanced Error Reporting
+        Capabilities: [140] Device Serial Number 0c-c4-7a-ff-ff-99-ce-14
+        Capabilities: [1a0] Transaction Processing Hints
+        Kernel driver in use: igb
+        Kernel modules: igb
